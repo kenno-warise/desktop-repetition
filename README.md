@@ -9,13 +9,29 @@
 ※WSLのUbuntuターミナル
 ```
 $ git clone https://github.com/kenno-warise/desktop-repetition.git
+
+$ cd desktop-repetition
+```
+
+UbuntuからWindowsコマンドプロンプトに切り替える
+
+```
+desktop-repetition$ cmd.exe
+
+C:\desktop-repetition>
+```
+
+WindowsコマンドプロンプトからUbuntuに切り替えるのは
+
+```
+C:\desktop-repetition>wsl
+
+desktop-repetition$
 ```
 
 ※Windows10のコマンドプロンプト
 
 ```
-C:\>cd desktop-repetition
-
 C:\desktop-repetition>python -m venv .venv
 
 C:\desktop-repetition>.venv\scripts\activate
