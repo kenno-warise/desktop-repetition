@@ -1,4 +1,40 @@
-# desktop-repetition
+# 音声認識反復アプリ
+
+音声認識ライブラリと音声合成ライブラリを使用して、発した言葉をPCが反復するといったシステムです。
+
+このリポジトリをクローンしてPythonコマンドで実行するには、Windows10の環境で行ってください。
+
+- 以下導入方法（WSLのUbuntuターミナルでリポジトリをクローンします。その後のコマンドはWindows10のコマンドプロンプトでの作業です。）
+
+※WSLのUbuntuターミナル
+```
+$ git clone https://github.com/kenno-warise/desktop-repetition.git
+```
+
+※Windows10のコマンドプロンプト
+
+```
+C:\>cd desktop-repetition
+
+C:\desktop-repetition>python -m venv .venv
+
+C:\desktop-repetition>.venv\scripts\activate
+
+(.venv) C:\desktop-repetition>pip install --upgrade pip
+
+(.venv) C:\desktop-repetition>pip install -r requirements.txt
+
+(.venv) C:\desktop-repetition>python main.py
+```
+
+※.exe化してデスクトップアプリを作る
+
+```
+(.venv) C:\desktop-repetition>pyinstaller main.py --onefile --icon=favicon.ico
+```
+
+エクスプローラーから「desktop-repetition」フォルダ内の「dist」と言うフォルダに「main.exe」ファイルあるのでそれをダブルクリック。
+
 
 ![repetition_disk](https://user-images.githubusercontent.com/51676019/202615129-51e4a2a6-55de-4c26-8e1e-c6cb84d47ccc.jpg)
 
