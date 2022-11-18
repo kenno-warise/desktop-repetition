@@ -52,6 +52,8 @@ C:\desktop-repetition>.venv\scripts\activate
 エクスプローラーから「desktop-repetition」フォルダ内の「dist」と言うフォルダに「main.exe」ファイルあるのでそれをダブルクリック。
 
 
+## .exe化したアプリを実行している様子
+
 ![repetition_disk](https://user-images.githubusercontent.com/51676019/202615129-51e4a2a6-55de-4c26-8e1e-c6cb84d47ccc.jpg)
 
 ![repetition_disk_2](https://user-images.githubusercontent.com/51676019/202615157-ae41e168-1289-4c3e-b154-49cbcbed8b61.jpg)
