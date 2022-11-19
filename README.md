@@ -92,3 +92,16 @@ C:\desktop-repetition>.venv\scripts\activate
 ![repetition_disk_5](https://user-images.githubusercontent.com/51676019/202834766-13db4055-18cd-48e6-b3ad-f2ec43f77f28.jpg)
 
 ### テキスト入力モード
+
+![repetition_disk_6](https://user-images.githubusercontent.com/51676019/202835055-8fd61b5d-ae26-4ee5-9680-cffb383b3714.jpg)
+
+テキストを入力します。
+
+![repetition_disk_7](https://user-images.githubusercontent.com/51676019/202835063-03d2340b-6989-4121-ab3d-f993929fbc83.jpg)
+
+テキストを入力せずに「Enter」キーを押すと入力を促されます。
+
+![repetition_disk_8](https://user-images.githubusercontent.com/51676019/202835068-f73196c9-5ed0-4f7e-98db-6dcab7a60bac.jpg)
+
+終了するには、音声認識モードと同じようにテキストで「終了・辞める・さようなら」と入力します。
+
