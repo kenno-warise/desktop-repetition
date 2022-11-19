@@ -75,10 +75,20 @@ C:\desktop-repetition>.venv\scripts\activate
 
 ![repetition_disk](https://user-images.githubusercontent.com/51676019/202615129-51e4a2a6-55de-4c26-8e1e-c6cb84d47ccc.jpg)
 
-クリックするとコンソールが表示されます。
+クリックするとコンソールが表示され、「音声認識」か「テキスト入力」で反復させるかを決めます。
 
-![repetition_disk_2](https://user-images.githubusercontent.com/51676019/202615157-ae41e168-1289-4c3e-b154-49cbcbed8b61.jpg)
+![repetition_disk_2](https://user-images.githubusercontent.com/51676019/202834751-561f9ea1-7817-4e51-b401-01fa7ea5e3ea.jpg)
+
+### 音声認識モード
+
+![repetition_disk_3](https://user-images.githubusercontent.com/51676019/202834757-240a0eab-0cbe-42d0-911c-a7d1955242b7.jpg)
 
 何も発言しないと、「発言してください」と促されます。
 
-![repetition_disk_3](https://user-images.githubusercontent.com/51676019/202615182-f3442cb5-3564-42a7-9beb-1daea99adf4e.jpg)
+![repetition_disk_4](https://user-images.githubusercontent.com/51676019/202834761-f2dfb8af-729b-45ac-ba7b-4f73ba23431b.jpg)
+
+「終了・辞める・さようなら」と発言すると、システムは終了します。
+
+![repetition_disk_5](https://user-images.githubusercontent.com/51676019/202834766-13db4055-18cd-48e6-b3ad-f2ec43f77f28.jpg)
+
+### テキスト入力モード
