@@ -12,7 +12,7 @@
 |PyAudio==0.2.12|
 |pyttsx3==2.90|
 |SpeechRecognition==3.8.1|
-=pyinstaller|
+pyinstaller|
 
 このリポジトリをクローンしてPythonコマンドで実行するには、Windows10の環境で行ってください。
 
