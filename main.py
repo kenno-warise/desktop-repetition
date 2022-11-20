@@ -2,19 +2,23 @@ import speech_recognition as sr
 import pyttsx3
 
 
-input_text = """----------
+iteration_menu = """----------
 テキスト入力の場合は何か文字を入力してから「Enter」キーを押してください。
 音声認識の場合はそのまま「Enter」キーを押してください。
 ----------
 
 """
-quit_list = ['終了', 'やめる', '辞める', 'さようなら']
-input_value = input(input_text)
+print(iteration_menu)
 
-if input_value:
+quit_list = ['終了', 'やめる', '辞める', 'さようなら']
+input_menu = input()
+
+
+
+if input_menu:
     print('テキスト入力してください---->')
     print()
-    
+        
     while True:
         input_value = input('入力: ')
         print()
@@ -64,3 +68,4 @@ else:
             print()
             engine.say(someting)
             engine.runAndWait()
+
