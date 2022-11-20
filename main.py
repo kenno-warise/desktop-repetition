@@ -2,8 +2,14 @@ import speech_recognition as sr
 import pyttsx3
 
 
+input_text = """----------
+テキスト入力の場合は何か文字を入力してから「Enter」キーを押してください。
+音声認識の場合はそのまま「Enter」キーを押してください。
+----------
+
+"""
 quit_list = ['終了', 'やめる', '辞める', 'さようなら']
-input_value = input('----------\n音声認識の場合はそのまま「Enter」キーを押してください。\nテキスト入力の場合は何か文字を入力してから「Enter」キーを押してください\n----------\n')
+input_value = input(input_text)
 
 if input_value:
     print('テキスト入力してください---->')
