@@ -8,14 +8,22 @@ iteration_menu = """----------
 
 """
 print(iteration_menu)
-
+quit_list = ['終了', '終了します', 'やめよう', 'やめる', '辞める', 'さようなら', 'おわり', '終わり', 'じゃあ', 'じゃあね']
 choice = input()
-
+repetition = Repetition()
 
 if choice:
-    # テキストモード
-    Repetition().text_reco()
+    print('テキストモード---->\n')
+    while True:
+        input_text = input('\n入力 :')
+        if input_text in quit_list:
+            repetition.text_reco(input_text)
+            break
+        elif not input_text:
+            repetition.nothing_input()
+        else:
+            repetition.text_reco(input_text)
 else:
-    # 音声認識モード
-    Repetition().voice_reco()
+    print('音声認識モード--->\n')
+    repetition.voice_reco()
 
