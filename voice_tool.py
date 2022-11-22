@@ -4,8 +4,13 @@ import pyttsx3
 
 class Repetition:
     
-    def __init__(self):
-        self.quit_list = ['終了', '終了します', 'やめよう', 'やめる', '辞める', 'さようなら', 'おわり', '終わり', 'じゃあ', 'じゃあね']
+    def __init__(self, quit_list=None):
+
+        # voice_recoメソッド用の終了ワードリスト
+        self.quit_list = ['終了']
+        if type(quit_list) == type(list()):
+            self.quit_list.extend(quit_list)
+
         # self.input_text = choice
         self.engine = pyttsx3.init() # 文字の読み出しオブジェクトの初期化
 
@@ -22,6 +27,8 @@ class Repetition:
         
     def voice_reco(self):
         # voice_recoメソッドが呼ばれたら、マイクから拾われた音声をテキストに文字起こしする
+
+        print('終了ワード: {}'.format(self.quit_list))
 
         while True:
             r = sr.Recognizer() # 文字起こしオブジェクトの初期化
